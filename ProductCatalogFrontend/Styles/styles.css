@@ -1,0 +1,149 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#control-button{
+    margin-bottom: 10px;
+}
+
+button.add-to-cart {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.delete-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    button.add-to-cart:hover {
+        background-color: #218838;
+    }
+
+.cart-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.admin-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#admin-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#cart-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    #cart-button:hover {
+        background-color: #0056b3;
+    }
+
+.cart-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    z-index: 1000;
+}
+
+    .cart-dropdown h3 {
+        margin-top: 0;
+    }
+
+    .cart-dropdown ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .cart-dropdown ul li {
+            margin-bottom: 10px;
+        }
+
+#checkout-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+    #checkout-button:hover {
+        background-color: #218838;
+    }
+
+#product-form {
+    margin-top: 20px;
+}
+
+    #product-form label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    #product-form input {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-top: 5px;
+    }
